@@ -1,5 +1,14 @@
 * {
     font-family: Quicksand;
     font-size: 16px;
-    color: #333;
+    color: #2c2828;
 }
+
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(to bottom right, #7caed8, #8b9597);
+}
+
