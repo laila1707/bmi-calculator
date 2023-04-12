@@ -60,24 +60,26 @@ body {
     width: 140px;
     background-color: #73c5aa;
     color: #fff;
-    margin-left: 20px;
-    display: block;
-    outline: none;
-    cursor: pointer;
-    margin-top: 10px;
+    margin-right: 30px;
 }
+
+.btn {
+    margin: 10px 70px;
+}
+
 #submit:hover {
     background-color: #97d0bc;
 }
-#btnReset{
+
+#btnReset {
     border: none;
-    color: #73c5aa;
-    margin: auto;
-    display: block;
-    outline: none;
-    cursor: pointer;
-    
+    color: #5fac92;
     background-color: #fff;
+    cursor: pointer;
+}
+
+#btnReset:hover {
+    color: #2a6450;
 }
 
 .text {
