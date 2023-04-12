@@ -22,3 +22,16 @@ body {
     border: solid 1px #118f22;
     box-shadow: 0 0 50px 0 #ddd;
 }
+
+.form:hover {
+    box-shadow: 0 0 60px 0 #f0f0f0;
+    transition: 0.3s;
+    transform: scale(1.02);
+}
+
+.row-1 {
+    padding: 20px;
+}
+.row-2 {
+    padding: 20px;
+}
