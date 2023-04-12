@@ -14,8 +14,8 @@ body {
 
 .form {
     background-color: #fff;
-    height: 300px;
-    width: 500px;
+    height: 240px;
+    width: 450px;
     border-radius: 20px;
     margin: 20px auto 20px auto;
     display: block;
@@ -30,21 +30,20 @@ body {
 }
 
 .row-1 {
-    padding: 30px;
+    padding: 20px;
 }
 .row-2 {
-    padding: 30px;
+    padding: 20px;
 }
 
 .input-text{
-    width: 80px;
+    width: 60px;
     height: 30px;
     border-radius: 8px;
     border: none;
     outline: none;
     background-color: #d4e0dc;
     padding: 5px 10px;
-
 }
 
 .input-text:last-child {
@@ -65,9 +64,10 @@ body {
     display: block;
     outline: none;
     cursor: pointer;
+    margin-top: 10px;
 }
 #submit:hover {
-    background-color: #8dbead;
+    background-color: #97d0bc;
 }
 
 .text {
@@ -79,4 +79,64 @@ body {
 }
 .row-two {
     padding: 15px 20px 30px 20px;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #d4e0dc;
+    border-radius: 50%;
+}
+.container:hover input ~ .checkmark {
+    background-color: rgb(188, 210, 205);
+}
+.container input:checked ~ .checkmark {
+    background-color: #73c5aa;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #289df6;
+    padding-top: 15px;
+    display: block;
+}
+h2 {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
 }
