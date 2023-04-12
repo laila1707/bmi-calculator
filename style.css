@@ -9,6 +9,16 @@ body {
     height: 100vh;
     padding: 0;
     border: 0;
-    background: linear-gradient(to bottom right, #7caed8, #8b9597);
+    background: linear-gradient(to bottom right, #9cd9c6, #8b9597);
 }
 
+.form {
+    background-color: #fff;
+    height: 290px;
+    width: 450px;
+    border-radius: 20px;
+    margin: 20px auto 20px auto;
+    display: block;
+    border: solid 1px #118f22;
+    box-shadow: 0 0 50px 0 #ddd;
+}
