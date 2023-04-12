@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="script.js">
 </head>
 <body>
-    
+    <form class="form" id="form" onsubmit="return validateForm()">
+    <div>
+        <input type="text" class="input-text" id="age" autocomplete="off" required><p class="text">Age</p>
+        <label class="container">
+            <input type="radio" name="radio" id="f"><p class="text">Female</p>
+              <span class="checkmark"></span>
+            </label>
+            <label class="container">
+            <input type="radio" name="radio" id="m"><p class="text">Male</p>
+              <span class="checkmark"></span>
+            </label>
+    </div>
+    </form>
 </body>
 </html>
