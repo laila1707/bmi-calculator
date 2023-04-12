@@ -60,7 +60,7 @@ body {
     width: 140px;
     background-color: #73c5aa;
     color: #fff;
-    margin: auto;
+    margin-left: 20px;
     display: block;
     outline: none;
     cursor: pointer;
@@ -68,6 +68,16 @@ body {
 }
 #submit:hover {
     background-color: #97d0bc;
+}
+#btnReset{
+    border: none;
+    color: #73c5aa;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    
+    background-color: #fff;
 }
 
 .text {
@@ -128,21 +138,23 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
     text-align: center;
     padding: 15px;
 }
 h2 {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
-    color: #73c5aa;
+    color: #3c6859;
     padding-top: 15px;
-    display: block;    
+    display: block;
 }
+
 h3 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 300;
     text-align: center;
+    
 }

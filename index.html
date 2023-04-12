@@ -7,11 +7,10 @@
     <title>BMI Calculator</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
 </head>
 <body>
     <h1>Check Your BMI</h1>
-    <form id= "form" class="form" onsubmit="return validateForm()">
+    <form class="form" id= "form" onsubmit="return validateForm()">
     <div class="row-1">
         <input type="text" class="input-text" id="age" autocomplete="off" required><p class="text">Age</p>
         <label class="container">
@@ -30,6 +29,8 @@
     </div>
 
     <button type="button" id="submit">Calculate</button>
+    <button type="reset" id="btnReset" onclick="window.location.reload()">Reset</button>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
