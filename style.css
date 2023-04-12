@@ -35,3 +35,21 @@ body {
 .row-2 {
     padding: 20px;
 }
+
+.input-text{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #d4e0dc;
+    padding: 5px 10px;
+
+}
+
+.input-text:last-child {
+    margin-bottom: 35px;
+}
+.input-text:hover {
+    background-color:rgb(188, 210, 205);
+}
